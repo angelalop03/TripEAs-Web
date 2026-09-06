@@ -51,7 +51,7 @@ export default function Hero() {
             </div>
 
             <div className="mascot">
-              <img src="/capibara.png" alt="Mascota de TripEAs" width="100%" />
+              <img src={`${import.meta.env.BASE_URL}capibara.png`} alt="Mascota de TripEAs" width="100%" />
               <span className="mascot-bubble">¡Copia mi ruta! 🐹</span>
             </div>
 
