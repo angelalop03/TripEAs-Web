@@ -179,23 +179,30 @@ La web comparte la identidad visual de la app, diseñada previamente en **Figma*
 | **JavaScript (JSX)** | Lógica y maquetación de los componentes |
 | **CSS3** | Estilos propios con variables, animaciones y media queries, sin frameworks |
 | **ESLint** | Mantener el código limpio y coherente |
-| **GitHub Actions** | Compilar y desplegar automáticamente |
+| **gh-pages** | Subir la web compilada a la rama `gh-pages` con un solo comando |
 | **GitHub Pages** | Alojamiento gratuito de la web |
 
 ---
 
-## 🚀 Despliegue automático
+## 🚀 Despliegue
 
-Cada vez que se sube un cambio a la rama `main`, **GitHub Actions** compila la web y la publica en GitHub Pages sin pasos manuales.
+La web se compila en local y se publica con un solo comando:
+
+```bash
+npm run publicar
+```
+
+Ese comando genera la web en `dist/` y sube su contenido a la rama **`gh-pages`**. GitHub Pages está configurado para servir directamente esa rama, así que en uno o dos minutos los cambios aparecen en la URL pública.
 
 ```mermaid
 flowchart LR
-    A[💻 Push a main] --> B[⚙️ GitHub Actions]
-    B --> C[📦 npm ci]
-    C --> D[🏗️ npm run build]
-    D --> E[📤 Subir carpeta dist]
-    E --> F[🌐 GitHub Pages]
+    A[💻 npm run publicar] --> B[🏗️ vite build]
+    B --> C[📤 gh-pages sube dist]
+    C --> D[🌿 Rama gh-pages]
+    D --> E[🌐 GitHub Pages]
 ```
+
+> El código fuente se sigue guardando en `main` como siempre (`git push`); `npm run publicar` solo actualiza la web publicada. El archivo `public/.nojekyll` evita que GitHub Pages procese la web con Jekyll.
 
 <details>
 <summary><b>🔧 Detalle: la ruta base de GitHub Pages</b></summary>
@@ -216,7 +223,7 @@ GitHub Pages sirve el proyecto en `/TripEAs-Web/`, no en la raíz del dominio. P
 ```
 TripEAs-Web/
 ├── .github/workflows/
-│   └── deploy.yml          # Compilación y despliegue en GitHub Pages
+│   └── deploy.yml          # Despliegue alternativo con GitHub Actions (solo manual)
 ├── public/
 │   └── capibara.png        # Mascota de TripEAs
 ├── src/
@@ -261,6 +268,7 @@ Abre `http://localhost:5173/TripEAs-Web/` en el navegador.
 | `npm run build` | Genera la versión de producción en `dist/` |
 | `npm run preview` | Sirve en local la versión de producción |
 | `npm run lint` | Analiza el código con ESLint |
+| `npm run publicar` | Compila la web y la publica en GitHub Pages |
 
 ---
 

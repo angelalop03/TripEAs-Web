@@ -1,8 +1,9 @@
 name: Deploy to GitHub Pages
 
+# Solo se lanza a mano: la web se publica con `npm run publicar` (rama
+# gh-pages). Para volver a este sistema, cambia el origen de GitHub Pages a
+# "GitHub Actions" en Settings → Pages y vuelve a añadir el trigger `push`.
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
