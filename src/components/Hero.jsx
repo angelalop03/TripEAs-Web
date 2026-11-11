@@ -12,9 +12,9 @@ export default function Hero() {
               <svg className="icon" width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="4" y="3" width="16" height="18" rx="2" stroke="#fff" strokeWidth="1.8" /><circle cx="12" cy="17.3" r="0.9" fill="#fff" /></svg>
               <span className="store-copy"><span className="eyebrow">Instalar en</span><span className="title">iPhone (Web)</span></span>
             </a>
-            <a className="store-btn dark" href="https://expo.dev/artifacts/eas/SH_Nh3YTzG_zo9LCPQM961v6qIKLWCtsa7QNDgB4eek.apk">
+            <a className="store-btn dark" href="https://tripeas.vercel.app" target="_blank" rel="noopener noreferrer">
               <svg className="icon" width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M6 2.5 12 8l6-5.5M4 8.5A2.5 2.5 0 0 1 6.5 6h11A2.5 2.5 0 0 1 20 8.5v10A2.5 2.5 0 0 1 17.5 21h-11A2.5 2.5 0 0 1 4 18.5z" stroke="#fff" strokeWidth="1.6" strokeLinejoin="round" /></svg>
-              <span className="store-copy"><span className="eyebrow">Disponible en</span><span className="title">Android (APK)</span></span>
+              <span className="store-copy"><span className="eyebrow">Instalar en</span><span className="title">Android (Web)</span></span>
             </a>
           </div>
         </div>

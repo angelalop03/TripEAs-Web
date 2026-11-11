@@ -1,5 +1,4 @@
 const APP_URL = 'https://tripeas.vercel.app'
-const APK_URL = 'https://expo.dev/artifacts/eas/SH_Nh3YTzG_zo9LCPQM961v6qIKLWCtsa7QNDgB4eek.apk'
 
 export default function InstallGuide() {
   return (
@@ -34,7 +33,6 @@ export default function InstallGuide() {
             <li>Toca el menú <strong>⋮</strong> de arriba a la derecha.</li>
             <li>Elige <strong>Instalar app</strong> o <strong>Añadir a pantalla de inicio</strong>.</li>
           </ol>
-          <p className="install-note">¿Prefieres la app nativa? <a href={APK_URL}>Descarga el APK</a>: incluye los documentos sin conexión.</p>
           <a className="step-foot install-link" href={APP_URL} target="_blank" rel="noopener noreferrer">Abrir TripEas →</a>
         </div>
 

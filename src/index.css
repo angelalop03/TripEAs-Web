@@ -384,8 +384,6 @@ button{font:inherit;cursor:pointer;border:none;background:none;color:inherit;}
 /* ---------- Instalar ---------- */
 .install-steps{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:10px;font-size:14px;line-height:1.55;color:var(--text-body);}
 .install-steps strong{color:var(--ink-strong);}
-.install-note{font-size:13px;line-height:1.5;color:var(--text-muted);}
-.install-note a{color:var(--teal-700);font-weight:700;text-decoration:underline;}
 .step-foot.install-link{justify-content:center;color:var(--teal-700);font-weight:700;font-size:13px;}
 .step-foot.install-link:hover{background:var(--cyan-200);}
 

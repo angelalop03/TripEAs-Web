@@ -8,10 +8,9 @@ export default function Header() {
           <a href="#funcionalidades">Funcionalidades</a>
           <a href="#como-funciona">Cómo funciona</a>
           <a href="#instalar">Instalar</a>
-          <a href="#descargar">Descargar</a>
         </nav>
         <div className="header-actions">
-          <a href="#descargar" className="btn-download-small">Descargar app</a>
+          <a href="#instalar" className="btn-download-small">Instalar app</a>
         </div>
       </div>
     </header>
