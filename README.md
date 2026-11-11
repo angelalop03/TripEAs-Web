@@ -56,7 +56,7 @@ Una app nueva necesita un sitio donde **presentarse antes de que alguien la inst
 |:-:|---|---|
 | 💬 | **Explicar el problema** | Compara cómo se organiza hoy un viaje en grupo con cómo se hace con TripEAs |
 | ✨ | **Enseñar el producto** | Recorre las funcionalidades con tarjetas que imitan la interfaz real de la app |
-| 📲 | **Convertir** | Botones de descarga para Android (APK), acceso para iPhone y enlace a la versión web |
+| 📲 | **Convertir** | Botones para instalar la app web en iPhone, Android y ordenador, y descarga del APK de Android |
 
 ---
 
@@ -71,7 +71,8 @@ flowchart TB
     A --> B[⚖️ Comparativa<br/>antes vs. después de TripEAs]
     B --> C[✨ Funcionalidades<br/>seis tarjetas con ejemplos visuales]
     C --> D[🪜 Cómo funciona<br/>tres pasos para empezar]
-    D --> E[📲 Llamada a la acción + pie<br/>descargas y enlaces]
+    D --> I[📥 Instalar<br/>pasos para iPhone, Android y ordenador]
+    I --> E[📲 Llamada a la acción + pie<br/>descargas y enlaces]
 ```
 
 <details>
@@ -79,7 +80,7 @@ flowchart TB
 
 <br/>
 
-La primera pantalla presenta la idea en una frase: *organizar un viaje en grupo nunca fue tan fácil*. Incluye los botones para abrir la app en iPhone (versión web) o descargar el APK de Android.
+La primera pantalla presenta la idea en una frase: *organizar un viaje en grupo nunca fue tan fácil*. Incluye los botones para instalar la app en iPhone (versión web) o descargar el APK de Android.
 
 A la derecha aparece una **maqueta de la app** con tarjetas flotantes que simulan su uso real: un viaje activo a la Costa Brava, el balance de gastos, el próximo plan, una checklist del grupo y el resultado de la ruleta. La mascota, un capibara, le da un toque cercano.
 
@@ -93,7 +94,7 @@ A la derecha aparece una **maqueta de la app** con tarjetas flotantes que simula
 Dos columnas enfrentadas:
 
 - **Antes de TripEAs, el caos:** mensajes sin leer en el grupo, un Excel con la fórmula rota, nadie sabe quién debe qué, billetes perdidos en el correo.
-- **Con TripEAs, paz mental:** cuentas saldadas en un toque, itinerario colaborativo y documentos disponibles sin conexión.
+- **Con TripEAs, paz mental:** cuentas saldadas en un toque, itinerario colaborativo y documentos a mano (sin conexión en la app de Android).
 
 El usuario se reconoce en el problema antes de ver la solución.
 
@@ -111,7 +112,7 @@ Seis tarjetas, cada una con un pequeño ejemplo visual que imita la app:
 | 💸 **Gastos compartidos** | Quién paga, cuánto y entre quién; la app calcula la forma más corta de saldar cuentas |
 | 📅 **Calendario y ruta** | Planes organizados día a día con todo el grupo |
 | ✅ **Listas y maletas** | Checklists compartidas con responsables asignados |
-| 📄 **Bóveda de documentos** | Billetes, reservas y seguros en un solo sitio, también sin conexión |
+| 📄 **Bóveda de documentos** | Billetes, reservas y seguros en un solo sitio, también sin conexión en Android |
 | 🖼️ **Álbum compartido** | Las fotos y vídeos de todo el grupo juntos |
 | 🎡 **Ruleta y votaciones** | Para decidir cuando nadie se pone de acuerdo |
 
@@ -127,6 +128,19 @@ Tres pasos para quitar el miedo a empezar:
 1. **Crea tu viaje** y comparte el código con el grupo.
 2. **Organizadlo juntos**: planes, billetes y listas sincronizados en todos los móviles.
 3. **¡Disfrutad del viaje!** Sin preocuparos de quién paga qué.
+
+</details>
+
+<details>
+<summary><b>📥 Instalar</b></summary>
+
+<br/>
+
+TripEAs es una **PWA**: se instala desde el navegador, sin pasar por ninguna tienda de apps, desde [tripeas.vercel.app](https://tripeas.vercel.app). Esta sección explica los pasos en cada dispositivo:
+
+- **iPhone:** Safari → Compartir → *Añadir a pantalla de inicio*.
+- **Android:** Chrome → menú ⋮ → *Instalar app* (o descargar el APK nativo).
+- **Ordenador:** Chrome o Edge → icono de instalar en la barra de direcciones.
 
 </details>
 
@@ -212,6 +226,7 @@ TripEAs-Web/
 │   │   ├── Comparison.jsx  # ⚖️ Antes vs. después
 │   │   ├── Features.jsx    # ✨ Funcionalidades
 │   │   ├── HowItWorks.jsx  # 🪜 Cómo funciona
+│   │   ├── InstallGuide.jsx # 📥 Cómo instalar la app
 │   │   └── CtaFooter.jsx   # 📲 Descargas y pie
 │   ├── App.jsx             # Orden de las secciones
 │   ├── main.jsx            # Punto de entrada

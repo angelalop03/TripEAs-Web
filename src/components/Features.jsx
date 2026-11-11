@@ -50,7 +50,7 @@ export default function Features() {
         <div className="feature-card">
           <div className="feature-top">
             <div className="feature-icon" style={{ background: 'var(--coral-50)' }}><svg width="20" height="22" viewBox="0 0 24 24" fill="none"><path d="M6 2h9l5 5v15H6z" stroke="#9E4039" strokeWidth="1.8" strokeLinejoin="round" /><path d="M15 2v5h5" stroke="#9E4039" strokeWidth="1.8" strokeLinejoin="round" /></svg></div>
-            <span className="feature-tag" style={{ background: 'var(--coral-50)', color: 'var(--coral-ink-strong)' }}>Acceso offline</span>
+            <span className="feature-tag" style={{ background: 'var(--coral-50)', color: 'var(--coral-ink-strong)' }}>Offline en Android</span>
           </div>
           <h3>Bóveda de Documentos</h3>
           <p>Guardad billetes de avión, reservas de hotel, seguros de viaje y pases turísticos en un solo lugar protegido con lector de códigos QR.</p>

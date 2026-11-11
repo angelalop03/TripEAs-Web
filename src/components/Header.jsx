@@ -7,6 +7,7 @@ export default function Header() {
           <a href="#inicio" className="active">Inicio</a>
           <a href="#funcionalidades">Funcionalidades</a>
           <a href="#como-funciona">Cómo funciona</a>
+          <a href="#instalar">Instalar</a>
           <a href="#descargar">Descargar</a>
         </nav>
         <div className="header-actions">

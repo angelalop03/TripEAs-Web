@@ -41,7 +41,7 @@ export default function Comparison() {
           </div>
           <div className="compare-item">
             <span className="ic mint"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6 10V7a6 6 0 0112 0v3M5 10h14v10H5z" stroke="#006878" strokeWidth="1.8" strokeLinejoin="round" /></svg></span>
-            <div className="txt"><strong>Bóveda de billetes compartida</strong><span>Acceso offline a reservas, vuelos y códigos QR</span></div>
+            <div className="txt"><strong>Bóveda de billetes compartida</strong><span>Reservas, vuelos y códigos QR a mano, incluso sin conexión en Android</span></div>
           </div>
         </div>
       </div>

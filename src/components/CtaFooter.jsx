@@ -7,9 +7,9 @@ export default function CtaFooter() {
         <p>Descarga TripEas ahora y llevad toda la organización en el bolsillo. Gratis, sin suscripciones obligatorias y listo para viajar hoy mismo.</p>
 
         <div className="cta-actions">
-          <a className="big-btn white" href="https://tripeas-app.expo.app" target="_blank" rel="noopener noreferrer">
+          <a className="big-btn white" href="https://tripeas.vercel.app" target="_blank" rel="noopener noreferrer">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="4" y="3" width="16" height="18" rx="2" stroke="#00344D" strokeWidth="1.8" /><circle cx="12" cy="17.3" r="0.9" fill="#00344D" /></svg>
-            Abrir en iPhone (Web)
+            Instalar en iPhone (Web)
           </a>
           <a className="big-btn teal" href="https://expo.dev/artifacts/eas/SH_Nh3YTzG_zo9LCPQM961v6qIKLWCtsa7QNDgB4eek.apk">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M6 2.5 12 8l6-5.5M4 8.5A2.5 2.5 0 0 1 6.5 6h11A2.5 2.5 0 0 1 20 8.5v10A2.5 2.5 0 0 1 17.5 21h-11A2.5 2.5 0 0 1 4 18.5z" stroke="#fff" strokeWidth="1.6" strokeLinejoin="round" /></svg>
@@ -19,7 +19,7 @@ export default function CtaFooter() {
 
         <div className="web-cta">
           <p>¿Prefieres planificar tranquilamente desde el ordenador?</p>
-          <a className="web-link" href="https://tripeas-app.expo.app" target="_blank" rel="noopener noreferrer">Abrir TripEas Web →</a>
+          <a className="web-link" href="https://tripeas.vercel.app" target="_blank" rel="noopener noreferrer">Abrir TripEas Web →</a>
         </div>
       </div>
 

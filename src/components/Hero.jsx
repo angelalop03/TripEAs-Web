@@ -3,14 +3,14 @@ export default function Hero() {
     <section className="hero" id="inicio">
       <div className="hero-grid">
         <div className="hero-copy">
-          <span className="badge-pill"><span className="dot"></span>Nuevo: Modo sin conexión &amp; Ruleta de planes</span>
+          <span className="badge-pill"><span className="dot"></span>Nuevo: instálala en tu móvil &amp; Ruleta de planes</span>
           <h1>Organizar un viaje en grupo nunca fue <span className="accent">tan fácil.</span></h1>
           <p className="hero-sub">Todo vuestro viaje. En un solo sitio.</p>
           <p className="body">Planificad, repartid gastos, compartid recuerdos y decidid juntos. TripEas reúne todo lo que necesitáis para disfrutar del viaje sin caos, sin fórmulas rotas ni chats infinitos.</p>
           <div className="hero-actions">
-            <a className="store-btn teal" href="https://tripeas-app.expo.app" target="_blank" rel="noopener noreferrer">
+            <a className="store-btn teal" href="https://tripeas.vercel.app" target="_blank" rel="noopener noreferrer">
               <svg className="icon" width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="4" y="3" width="16" height="18" rx="2" stroke="#fff" strokeWidth="1.8" /><circle cx="12" cy="17.3" r="0.9" fill="#fff" /></svg>
-              <span className="store-copy"><span className="eyebrow">Abrir en</span><span className="title">iPhone (Web)</span></span>
+              <span className="store-copy"><span className="eyebrow">Instalar en</span><span className="title">iPhone (Web)</span></span>
             </a>
             <a className="store-btn dark" href="https://expo.dev/artifacts/eas/SH_Nh3YTzG_zo9LCPQM961v6qIKLWCtsa7QNDgB4eek.apk">
               <svg className="icon" width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M6 2.5 12 8l6-5.5M4 8.5A2.5 2.5 0 0 1 6.5 6h11A2.5 2.5 0 0 1 20 8.5v10A2.5 2.5 0 0 1 17.5 21h-11A2.5 2.5 0 0 1 4 18.5z" stroke="#fff" strokeWidth="1.6" strokeLinejoin="round" /></svg>
